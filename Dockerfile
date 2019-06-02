@@ -1,4 +1,4 @@
-FROM certbot/dns-dnsmadeeasy:v0.30.0
+FROM certbot/dns-dnsmadeeasy:v0.31.0
 MAINTAINER Thomas Schaz <schazet@gmail.com>
 
 RUN apk add --no-cache --update wget bash
